@@ -4,7 +4,7 @@ Una guia simple y bonita de instalación de requerimientos de React Native en lo
 
 ## Windows
 
-- Instalar [Python 2.7](httpswww.python.orgftppython2.7.18python-2.7.18.amd64.msi Python 2.7), si es que no lo tienes instalado. No es necesario si ya se tiene una version posterior de Python
+- Instalar [Python 2.7](https://www.python.orgftppython2.7.18python-2.7.18.amd64.msi)
 
 - Instalar [Java JDK 8](httpswww.oracle.commxjavatechnologiesjavasejavase8-archive-downloads.html)
 
@@ -18,13 +18,13 @@ Una guia simple y bonita de instalación de requerimientos de React Native en lo
 - Podemos instalar un gestor de versiones de Node, ya que es mas facil trabajar de esta manera
 - Basta con ejecutar la siguiente instruccion en la terminal
 
-`curl -o- httpsraw.githubusercontent.comnvm-shnvmv0.37.2install.sh bash`
+`curl -o- https://raw.githubusercontent.comnvm-shnvmv0.37.2install.sh | bash`
 
 Una vez instalado, podemos probar que se haya instalado mediante
 
 `nvm -v`
 
-Si no hay salida, basta con ejecutar `source ~.zshrc` para poder recargar el archivo de la terminal
+Si no hay salida, basta con ejecutar `source ~/.zshrc` para poder recargar el archivo de la terminal
 
 Teniendo instalado NVM, podemos instalar cualquier version de Node, basta con ejecutar `nvm install {version}`. Para este tutorial, ocuparemos la version 12 `nvm install 12`
 
